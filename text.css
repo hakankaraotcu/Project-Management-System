@@ -1,0 +1,32 @@
+.font-weight-normal{
+    font-weight: 500!important;
+}
+.font-weight-bold{
+    font-weight: 700!important;
+}
+.text-right{
+    text-align: right!important;
+}
+@media (min-width: 576px){
+    .text-sm-right{
+        text-align: right!important;
+    }
+}
+.text-nowrap{
+    white-space: nowrap!important;
+}
+.text-center{
+    text-align: center!important;
+}
+.text-uppercase {
+    text-transform: uppercase!important;
+}
+.task-list-items {
+    min-height: 100px;
+    position: relative;
+}
+.tasks .card {
+    white-space: normal;
+    margin-top: 1rem;
+    cursor: all-scroll;
+}
